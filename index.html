@@ -7,12 +7,14 @@
     html, body {
       margin: 0;
       padding: 0;
-      height: 100%;
+      width: 100vw;
+      height: 100vh;
       background-color: #000;
+      overflow: hidden;
     }
 
     iframe {
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       width: 100vw;
@@ -22,11 +24,9 @@
   </style>
 </head>
 <body>
-
   <iframe 
-    src="https://app.powerbi.com/view?r=eyJrIjoiYWQzNzgxMDQtZGQyZi00NGEyLTkyZGQtYjc1Zjk2YWQ0M2RlIiwidCI6IjE1ZGNkOTA5LThkYzAtNDBlOS1hMWU1LWNlY2IwNTNjZGQxYSJ9&pageName=6842a33990e5f90a0b46"
-    allowFullScreen="true">
+    src="https://app.powerbi.com/reportEmbed?reportId=8676d082-5ae2-42db-97ce-4c7e78326b3d&autoAuth=true&ctid=15dcd909-8dc0-40e9-a1e5-cecb053cdd1a" 
+    allowfullscreen="true">
   </iframe>
-
 </body>
 </html>
